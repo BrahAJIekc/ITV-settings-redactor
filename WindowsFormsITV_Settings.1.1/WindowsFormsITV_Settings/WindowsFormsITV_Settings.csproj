@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CE62777-FA49-4086-B7E4-B6E5D0E8D479}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsITV_Settings</RootNamespace>
+    <AssemblyName>WindowsFormsITV_Settings</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\pub3\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AD237567CCD3731340C738B1A6F34ECA00AF9712</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsFormsITV_Settings_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsITV_Settings.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EventMapWork">
+      <HintPath>.\EventMapWork.dll</HintPath>
+    </Reference>
+    <Reference Include="JSONWork">
+      <HintPath>.\JSONWork.dll</HintPath>
+    </Reference>
+    <Reference Include="LexemWork">
+      <HintPath>.\LexemWork.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassCamRules.cs" />
+    <Compile Include="Commander\Command.cs" />
+    <Compile Include="Commander\ICommand.cs" />
+    <Compile Include="Commander\Invoker.cs" />
+    <Compile Include="Commander\Receiver.cs" />
+    <Compile Include="EventMap.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventMap.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Events\AddCamAndAddDevs.cs" />
+    <Compile Include="Events\Add2andDel2.cs" />
+    <Compile Include="Events\ClearingDevsAndCams.cs" />
+    <Compile Include="Events\DeleteAllCams.cs" />
+    <Compile Include="Events\DeleteFromListBox.cs" />
+    <Compile Include="Events\EventsAddRemoveWithListBox.cs" />
+    <Compile Include="Events\Form_Closing.cs" />
+    <Compile Include="Events\Load.cs" />
+    <Compile Include="Events\numerics_ValueChanged.cs" />
+    <Compile Include="Events\PlusMinusCamera.cs" />
+    <Compile Include="Events\PlusMinusCamsDouble.cs" />
+    <Compile Include="Events\Refrasher.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Events\Refresh.cs" />
+    <Compile Include="Events\Save.cs" />
+    <Compile Include="Events\SelectAllEvent.cs" />
+    <Compile Include="Events\treeView1Resize.cs" />
+    <Compile Include="Events\treeViews_AfterCheck.cs" />
+    <Compile Include="Events\Undo.cs" />
+    <Compile Include="Form1000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1000.designer.cs">
+      <DependentUpon>Form1000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Methods\AddContextMenues.cs" />
+    <Compile Include="Methods\AddTypesAndNumbers.cs" />
+    <Compile Include="Methods\BindDictionaryFromDevRules.cs" />
+    <Compile Include="Methods\BindTreViewText.cs" />
+    <Compile Include="Methods\CamRulesEdit.cs" />
+    <Compile Include="Methods\CheckedNodes.cs" />
+    <Compile Include="Methods\ClearingAndFilling.cs" />
+    <Compile Include="Methods\CopyTree.cs" />
+    <Compile Include="Methods\DeleteNodesFromListBox.cs" />
+    <Compile Include="Methods\DevicesIn.cs" />
+    <Compile Include="Methods\DevRulesSettings.cs" />
+    <Compile Include="Methods\DevRulesVar.cs" />
+    <Compile Include="Methods\EventList.cs" />
+    <Compile Include="Methods\EventsToDiction.cs" />
+    <Compile Include="Methods\GetCamName.cs" />
+    <Compile Include="Methods\GetDeviceName.cs" />
+    <Compile Include="Events\Hide.cs" />
+    <Compile Include="Methods\HideCheckboxes.cs" />
+    <Compile Include="Methods\PlusClick.cs" />
+    <Compile Include="Methods\RemoveTypesAndNumbers.cs" />
+    <Compile Include="Methods\RewriteConfig.cs" />
+    <Compile Include="Methods\RewriteDevRules.cs" />
+    <Compile Include="Methods\SetToggles.cs" />
+    <Compile Include="Methods\TreeForConfigAndDevRules.cs" />
+    <Compile Include="Methods\UncheckingItem.cs" />
+    <Compile Include="Methods\XClick.cs" />
+    <Compile Include="NodeData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Styles\MenuStripStyle.cs" />
+    <EmbeddedResource Include="EventMap.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EventMap.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1000.resx">
+      <DependentUpon>Form1000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="..\..\EventMapWork\Data\EventMap.json">
+      <Link>EventMap.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\EventMap.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emptyDevRules.json.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="emptyDevRules.json.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,23 @@
+
+//CurrentType:
+//POS - 1
+//BOS - 2
+//ТРК - 3
+//Уровнемер - 4
+//OPT - 5
+//DOMS - 6
+{
+  "Name": "root",
+  "Number": 0,
+  "Data": null,
+  "Children": [
+    {
+      "Name": "1",
+      "Number": 0,
+      "Data": null,
+      "Children": [],
+      "ChildrenCount": 0
+    }
+  ],
+  "ChildrenCount": 1
+}

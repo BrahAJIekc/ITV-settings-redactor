@@ -1,0 +1,3349 @@
+﻿{
+  "Name": "Root",
+  "Children": [
+    {
+      "Name": "000",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Сигнал потерян"
+      },
+      "Children": [
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "999",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Сигнал восстановлен"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "001",
+      "Data": {
+        "Timeout": "3000",
+        "Caption": "Начало перерыва"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "smenaDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Дата смены"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер смены"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "operatorName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Имя оператора"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "002",
+      "Data": {
+        "Timeout": "3000",
+        "Caption": "Окончание перерыва"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "smenaDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Дата смены"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер смены"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "operatorName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Имя оператора"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "003",
+      "Data": {
+        "Timeout": "3000",
+        "Caption": "Открытие смены"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "smenaDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Дата смены"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "operatorName",
+          "Data": {
+            "Required": "0",
+            "Caption": "Имя оператора"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "004",
+      "Data": {
+        "Timeout": "3000",
+        "Caption": "Закрытие смены"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "smenaDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Дата смены"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер смены"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "0",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "operatorName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Имя оператора"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "005",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Открытие ящика темпокассы"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "cashAmountLast",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма наличных средств в денежном ящике на момент окончания последней транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "006",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Закрытие ящика темпокассы"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "cashAmountLast",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма наличных средств в денежном ящике на момент окончания последней транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "007",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Ящик темпокассы не закрыт более 5 минут"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "cashAmountLast",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма наличных средств в денежном ящике на момент окончания последней транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "008",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Добавление артикула в чек"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "productName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Наименование товара"
+          }
+        },
+        {
+          "Name": "eachProductPrice",
+          "Data": {
+            "Required": "1",
+            "Caption": "Цена каждого товара"
+          }
+        },
+        {
+          "Name": "productCount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "009",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Удаление артикула из чека"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "productName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Наименование товара"
+          }
+        },
+        {
+          "Name": "eachProductPrice",
+          "Data": {
+            "Required": "1",
+            "Caption": "Цена каждого товара"
+          }
+        },
+        {
+          "Name": "productCount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "010",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Продажа"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер чека"
+          }
+        },
+        {
+          "Name": "paymentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Расшифровка вида оплаты"
+          }
+        },
+        {
+          "Name": "customerCash",
+          "Data": {
+            "Required": "0",
+            "Caption": "Получено от клиента"
+          }
+        },
+        {
+          "Name": "oddCash",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сдача"
+          }
+        },
+        {
+          "Name": "cardID",
+          "Data": {
+            "Required": "0",
+            "Caption": "Идентификатор карты"
+          }
+        },
+        {
+          "Name": "promoType",
+          "Data": {
+            "Required": "0",
+            "Caption": "Расшифровка вида промо-акции"
+          }
+        },
+        {
+          "Name": "depositBonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус задаток"
+          }
+        },
+        {
+          "Name": "discountBonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус скидка"
+          }
+        },
+        {
+          "Name": "bonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус"
+          }
+        },
+        {
+          "Name": "discount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Скидка"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "items",
+          "Data": {
+            "Required": "0",
+            "Caption": "Позиции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "011",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Отмена чека"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": ""
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека"
+          }
+        },
+        {
+          "Name": "paymentType",
+          "Data": {
+            "Required": "0",
+            "Caption": "Расшифровка вида оплаты"
+          }
+        },
+        {
+          "Name": "customerCash",
+          "Data": {
+            "Required": "0",
+            "Caption": "Получено от клиента"
+          }
+        },
+        {
+          "Name": "oddCash",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сдача"
+          }
+        },
+        {
+          "Name": "cardID",
+          "Data": {
+            "Required": "0",
+            "Caption": "Идентификатор карты"
+          }
+        },
+        {
+          "Name": "promoType",
+          "Data": {
+            "Required": "0",
+            "Caption": "Расшифровка вида промо-акции"
+          }
+        },
+        {
+          "Name": "depositBonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус задаток"
+          }
+        },
+        {
+          "Name": "discountBonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус скидка"
+          }
+        },
+        {
+          "Name": "bonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус"
+          }
+        },
+        {
+          "Name": "discount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Скидка"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "012",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Возврат"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "ticketReturnNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер чека возврата"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека"
+          }
+        },
+        {
+          "Name": "bonusReturnAdd",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус возврат начисления"
+          }
+        },
+        {
+          "Name": "bonusReturnRem",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус возврат списания"
+          }
+        },
+        {
+          "Name": "bonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус"
+          }
+        },
+        {
+          "Name": "discount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Скидка"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "013",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Отложить продажу"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "productName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Наименование товара"
+          }
+        },
+        {
+          "Name": "eachProductPrice",
+          "Data": {
+            "Required": "1",
+            "Caption": "Цена каждого товара"
+          }
+        },
+        {
+          "Name": "productCount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "cardID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор карты"
+          }
+        },
+        {
+          "Name": "promoType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Расшифровка вида промо-акции"
+          }
+        },
+        {
+          "Name": "depositBonus",
+          "Data": {
+            "Required": "1",
+            "Caption": "Бонус задаток"
+          }
+        },
+        {
+          "Name": "discountBonus",
+          "Data": {
+            "Required": "1",
+            "Caption": "Бонус скидка"
+          }
+        },
+        {
+          "Name": "bonus",
+          "Data": {
+            "Required": "1",
+            "Caption": "Бонус"
+          }
+        },
+        {
+          "Name": "discount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Скидка"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "014",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Извлечь отложенную продажу"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "productName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Наименование товара"
+          }
+        },
+        {
+          "Name": "eachProductPrice",
+          "Data": {
+            "Required": "1",
+            "Caption": "Цена каждого товара"
+          }
+        },
+        {
+          "Name": "productCount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "cardID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор карты"
+          }
+        },
+        {
+          "Name": "promoType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Расшифровка вида промо-акции"
+          }
+        },
+        {
+          "Name": "depositBonus",
+          "Data": {
+            "Required": "1",
+            "Caption": "Бонус задаток"
+          }
+        },
+        {
+          "Name": "discountBonus",
+          "Data": {
+            "Required": "1",
+            "Caption": "Бонус скидка"
+          }
+        },
+        {
+          "Name": "bonus",
+          "Data": {
+            "Required": "1",
+            "Caption": "Бонус"
+          }
+        },
+        {
+          "Name": "discount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Скидка"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "015",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Сторно"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "productName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Наименование товара"
+          }
+        },
+        {
+          "Name": "eachProductPrice",
+          "Data": {
+            "Required": "1",
+            "Caption": "Цена каждого товара"
+          }
+        },
+        {
+          "Name": "productCount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "016",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Залог"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "productName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Наименование продукта"
+          }
+        },
+        {
+          "Name": "volumeAndPrice",
+          "Data": {
+            "Required": "1",
+            "Caption": "Наименование продукта"
+          }
+        },
+        {
+          "Name": "paymentType",
+          "Data": {
+            "Required": "0",
+            "Caption": "Расшифровка вида оплаты"
+          }
+        },
+        {
+          "Name": "cardID",
+          "Data": {
+            "Required": "0",
+            "Caption": "Идентификатор карты"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "017",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Внесение денег"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "cashAmountLast",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма наличных средств в денежном ящике на момент окончания последней транзакции"
+          }
+        },
+        {
+          "Name": "cashAmountCurrent",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма наличных средств в денежном ящике на момент окончания текущей транзакции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "018",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Выплата денег"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "cashAmountLast",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма наличных средств в денежном ящике на момент окончания последней транзакции"
+          }
+        },
+        {
+          "Name": "cashAmountCurrent",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма наличных средств в денежном ящике на момент окончания текущей транзакции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "019",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Произведена печать копии чека"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека"
+          }
+        },
+        {
+          "Name": "ticketReturnNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека возврата"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "020",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Технический пролив"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "productCount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека возврата"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        },
+        {
+          "Name": "toplivo",
+          "Data": {
+            "Required": "1",
+            "Caption": "Вид топлива"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "021",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Штатная перезагрузка системы"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "022",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Нештатная перезагрузка системы"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "023",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Экстренная остановка отпуска"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер пистолета"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "024",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Операция по карте"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "paymentType",
+          "Data": {
+            "Required": "0",
+            "Caption": "Расшифровка вида оплаты"
+          }
+        },
+        {
+          "Name": "cardID",
+          "Data": {
+            "Required": "0",
+            "Caption": "Идентификатор карты"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "response",
+          "Data": {
+            "Required": "1",
+            "Caption": "Код ответа"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        },
+        {
+          "Name": "cardType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип карты"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "025",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Произошел перелив"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "productCountOrder",
+          "Data": {
+            "Required": "0",
+            "Caption": "Количество товара (заказано)"
+          }
+        },
+        {
+          "Name": "productCountRelease",
+          "Data": {
+            "Required": "0",
+            "Caption": "Количество товара (отпущено)"
+          }
+        },
+        {
+          "Name": "productCountOverflow",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара (перелив)"
+          }
+        },
+        {
+          "Name": "productPriceOverflow",
+          "Data": {
+            "Required": "0",
+            "Caption": "Цена товара (перелив)"
+          }
+        },
+        {
+          "Name": "amountOrder",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма (заказано)"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "026",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Произошел недолив"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "0",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "countDifferent",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара (недолив)"
+          }
+        },
+        {
+          "Name": "amountDifferent",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма товара (недолив)"
+          }
+        },
+        {
+          "Name": "countReleased",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара (реализованно)"
+          }
+        },
+        {
+          "Name": "amountReleased",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма товара (реализованно)"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "027",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Перезагрузка терминала"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "028",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Произведена инкассация ОРТ"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "ortID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор ОРТ"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "029",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Сработал датчик безопасности ОРТ"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "ortID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор ОРТ"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "030",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Отмена предзаказа топлива"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека"
+          }
+        },
+        {
+          "Name": "oddCash",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "items",
+          "Data": {
+            "Required": "0",
+            "Caption": "Позиции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "031",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Транзакция продолжена"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер пистолета"
+          }
+        },
+        {
+          "Name": "productCount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара"
+          }
+        },
+        {
+          "Name": "productCountOrder",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара (заказано)"
+          }
+        },
+        {
+          "Name": "productCountRelease",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара (отпущено)"
+          }
+        },
+        {
+          "Name": "productCountContinue",
+          "Data": {
+            "Required": "1",
+            "Caption": "Количество товара (продолжено)"
+          }
+        },
+        {
+          "Name": "productPriceContinue",
+          "Data": {
+            "Required": "1",
+            "Caption": "Цена товара (продолжено)"
+          }
+        },
+        {
+          "Name": "amountContinue",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма (продолжено)"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "032",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Включение ТРК"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "033",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Подняли пистолет"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Пистолет"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "034",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Пролив на пробу"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "toplivo",
+          "Data": {
+            "Required": "1",
+            "Caption": "Вид топлива"
+          }
+        },
+        {
+          "Name": "volume",
+          "Data": {
+            "Required": "1",
+            "Caption": "Объём"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "035",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Скидка"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "0",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "item",
+          "Data": {
+            "Required": "1",
+            "Caption": "Позиция"
+          }
+        },
+        {
+          "Name": "percent",
+          "Data": {
+            "Required": "1",
+            "Caption": "Процент"
+          }
+        },
+        {
+          "Name": "value",
+          "Data": {
+            "Required": "1",
+            "Caption": "Значение"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "036",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Опустили пистолет"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        },
+        {
+          "Name": "pistolNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Пистолет"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "037",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Включить подачу ТРК"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "trkNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер ТРК"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "038",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Поиск товара"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "item",
+          "Data": {
+            "Required": "1",
+            "Caption": "Позиция"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "039",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Отмена предоплаты"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека"
+          }
+        },
+        {
+          "Name": "oddCash",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "items",
+          "Data": {
+            "Required": "0",
+            "Caption": "Позиции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "040",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Предоплата"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Идентификатор оператора"
+          }
+        },
+        {
+          "Name": "ticketNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер чека"
+          }
+        },
+        {
+          "Name": "paymentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Расшифровка вида оплаты"
+          }
+        },
+        {
+          "Name": "customerCash",
+          "Data": {
+            "Required": "1",
+            "Caption": "Получено от клиента"
+          }
+        },
+        {
+          "Name": "oddCash",
+          "Data": {
+            "Required": "0",
+            "Caption": "Сдача"
+          }
+        },
+        {
+          "Name": "cardID",
+          "Data": {
+            "Required": "0",
+            "Caption": "Идентификатор карты"
+          }
+        },
+        {
+          "Name": "promoType",
+          "Data": {
+            "Required": "0",
+            "Caption": "Расшифровка вида промо-акции"
+          }
+        },
+        {
+          "Name": "depositBonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус задаток"
+          }
+        },
+        {
+          "Name": "discountBonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус скидка"
+          }
+        },
+        {
+          "Name": "bonus",
+          "Data": {
+            "Required": "0",
+            "Caption": "Бонус"
+          }
+        },
+        {
+          "Name": "discount",
+          "Data": {
+            "Required": "0",
+            "Caption": "Скидка"
+          }
+        },
+        {
+          "Name": "amount",
+          "Data": {
+            "Required": "1",
+            "Caption": "Сумма"
+          }
+        },
+        {
+          "Name": "items",
+          "Data": {
+            "Required": "1",
+            "Caption": "Позиции"
+          }
+        },
+        {
+          "Name": "smenaNumber",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер смены"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "041",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Процесс запущен"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "processName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Имя процесса"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "042",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Процесс остановлен"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "processName",
+          "Data": {
+            "Required": "1",
+            "Caption": "Имя процесса"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "043",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Бумага кончилась"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "044",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Вход в систему"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "transactionDate",
+          "Data": {
+            "Required": "1",
+            "Caption": "Время начала транзакции"
+          }
+        },
+        {
+          "Name": "operatorName",
+          "Data": {
+            "Required": "0",
+            "Caption": "Имя оператора"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "045",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Состояние запуска"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "1",
+            "Caption": "Тип устройства"
+          }
+        },
+        {
+          "Name": "applicationEvent",
+          "Data": {
+            "Required": "1",
+            "Caption": "Aapplication Event"
+          }
+        },
+        {
+          "Name": "applicationEventTime",
+          "Data": {
+            "Required": "1",
+            "Caption": "Aapplication Event Time"
+          }
+        },
+        {
+          "Name": "lastOperationState",
+          "Data": {
+            "Required": "1",
+            "Caption": "Last operation state"
+          }
+        },
+        {
+          "Name": "systemEvent",
+          "Data": {
+            "Required": "1",
+            "Caption": "System Event"
+          }
+        },
+        {
+          "Name": "systemEventTime",
+          "Data": {
+            "Required": "1",
+            "Caption": "System Event Time"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "777",
+      "Data": {
+        "Timeout": "1000",
+        "Caption": "Контроль связи"
+      },
+      "Children": [
+        {
+          "Name": "SiteID",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер АЗС"
+          }
+        },
+        {
+          "Name": "Number",
+          "Data": {
+            "Required": "1",
+            "Caption": "Номер устройства"
+          }
+        },
+        {
+          "Name": "CurrentType",
+          "Data": {
+            "Required": "0",
+            "Caption": "Тип устройства"
+          }
+        }
+      ]
+    }
+  ]
+}
